@@ -1,0 +1,169 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+header{
+    background-image: url("house3.webp");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+ul{
+    list-style-type:none;
+    float:right
+}
+ul li{
+    display:inline-block;
+    border: 1px solid transparent;
+}
+ul li a{
+    color: antiquewhite;
+    text-decoration: double;
+    display: block;
+    padding:5px;
+}
+ul li a:hover {
+    background-color: white;
+    color:black;
+    transition: 0.6s ease;
+
+}
+.active{
+    background-color: white;
+    color:black;
+}
+
+
+
+h2{
+    color:white;
+    font-size: xx-large;
+    
+}
+.container{
+    align-items: center;
+    justify-content:center;
+}
+
+
+.main{
+    background-color:#31869d;
+    height: 40px;
+
+}
+button{
+    background-color: rgba(0,0,0, 0.5);
+    color:white;
+    size: 20px;
+    margin: 0%;
+  
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 400px;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0,0,0, 0.5);
+    box-shadow:inset -5px -5px rgba(0,0,0, 0.5) ;
+    border-radius: 25px;
+}
+.form h1{
+    color:white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(255, 255,255, 0.5);
+    margin:50px;
+}
+.box{
+    padding:20px;
+    margin:5px;
+    width:50%;
+    border: none ;
+    outline:none;
+    border-radius:20px ;
+    background-color: rgba(0,0,0, 0.5);
+    box-shadow: inset -3px -3px rgba(0,0,0, 0.5);
+    color: white;
+    font-size: 1rem;
+}
+#submit{
+    padding: 10px  20px;
+    margin-top:50px ;
+    width:50%;
+    background-color: rgba(0,0,0, 0.5);
+    box-shadow: inset -3px  -3px rgba(0,0,0, 0.5);
+    color: white;
+    border:none ;
+    outline: none;
+    border-radius: 20px;
+    font-size:1rem;
+}
+#submit:hover{
+    cursor:pointer;
+    background-color: rgba(255,255,255, 0.1);
+    color: white;
+}
+::placeholder{
+    color:white;
+    capacity:0.5;
+   
+    
+}
+.righttext{
+    text-align: right;
+    font-size: 25px;
+    padding: 40px;
+    
+}
+.e{
+    
+    
+    width: 295px;
+    height:25px;
+    background-color: rgba(0,0,0, 0.5);
+    box-shadow: inset -3px  -3px rgba(0,0,0, 0.5);
+    padding-top: 10px;
+   
+    color: white;
+    border:none ;
+    outline:none;
+    margin: 0%;
+
+}
+.bl{
+    text-align: center;
+    color:#36486b;
+    font-size: 40px;
+}
+.bl2{
+    text-align: center;
+    color:#36486b;
+    font-size: 40px;
+}
+.i{
+    text-decoration:none;
+    margin: 2px;
+    color:#31869d;
+    font-size: 20px;
+    text-align: center;
+   
+
+    
+}
+.img{
+    height: 30px;
+    width:25px;
+    margin-left: 0px;
+    padding-top: 10px;
+    border: none;
+   
+}
+.h1{
+    background-color: aliceblue;
+    height:10px;
+    width: 80px;
+}
